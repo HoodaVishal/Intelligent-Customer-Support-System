@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc 
+venv/
+.venv/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Data (don't upload large files!)
+data/raw/*.csv
+*.csv
+data/processed/*.csv
+
+
+# Models (too large!)
+*.h5
+*.pkl
+*.pth 
+models/
+
+
+# Secrets (NEVER upload!)
+.env
+*.key
+api_keys.txt
+
+
+# Logs
+*.log 
+logs/
+
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
